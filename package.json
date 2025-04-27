@@ -1,10 +1,14 @@
 {
   "name": "express-backend-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI tool to generate a basic Express.js backend structure",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && xcopy src\\templates dist\\templates /E /I /Y"
+    "build": "tsc && ncp src/templates dist/templates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:blinkelys/backend-generator-v2.git"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.2",
+    "ncp": "^2.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
