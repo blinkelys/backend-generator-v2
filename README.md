@@ -5,7 +5,7 @@ This project was made to speed up the process of creating a backend for a web ap
 To use this project, you will need to have Node.js installed on your computer. Once you have Node.js installed, you can run npm install express-backend-generator to install the project.
 
 # Usage
-When the project is installed, you can run the command ´´´npx create-express-backend´´´ to generate the necessary code for your backend. This will create a new folder with the name of your project, and inside that folder, you will find the necessary files to get started.
+When the project is installed, you can run the command `npx create-express-backend` to generate the necessary code for your backend. This will create a new folder with the name of your project, and inside that folder, you will find the necessary files to get started.
 
 # Features
 ## Multi Lauage Support
