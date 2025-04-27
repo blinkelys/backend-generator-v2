@@ -1,0 +1,5 @@
+nodee_modules
+package-lock.json
+dist
+.env
+.vscode
